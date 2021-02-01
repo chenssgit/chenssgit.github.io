@@ -2,12 +2,12 @@
 
 ## 安装lamp. 基于amzn2 linux建个ec2. 登录
 
-    sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2   *从amzn2 extras安装php*
-    sudo yum install -y httpd mariadb-server *yum安装httpd, mysql*
+    sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2 #从amzn2 extras安装php
+    sudo yum install -y httpd mariadb-server #yum安装httpd, mysql#
     sudo systemctl start httpd #启动webserver
     
 访问你的$ip/已经可以看到httpd test page.   
-添加'''echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/phpinfo.php'''，访问$ip/phpinfo.php，可以看到php info page.
+添加`echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/phpinfo.php`，访问$ip/phpinfo.php，可以看到php info page.
 
 ## 安装wordpress
 
