@@ -4,11 +4,10 @@ rust是与c相竞争又相补充的语言，内存、线程安全，并发友好
 
 ## 在aws ec2上体验rust:
 ### 创建一个基于aws amzn2 linux的ec2, 登录
-'''
-sudo yum update
-curl https://sh.rustup.rs | sh #安装rustup环境管理器
-source $HOME/.cargo/env #按提示，把cargo bin加到PATH
-'''
+
+  sudo yum update
+  curl https://sh.rustup.rs | sh #安装rustup环境管理器
+  source $HOME/.cargo/env #按提示，把cargo bin加到PATH
 
 ### 开始我们的hello word: 创建hw.rs，内容如下：
 '''
