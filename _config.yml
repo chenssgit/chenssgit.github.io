@@ -13,5 +13,7 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
   - rust_on_ec2.md
+  - files
+markdown_ext: "md"
 
 theme: jekyll-theme-cayman
